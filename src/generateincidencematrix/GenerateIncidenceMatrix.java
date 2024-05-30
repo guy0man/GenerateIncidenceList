@@ -8,7 +8,7 @@ public class GenerateIncidenceMatrix {
     public static void main(String[] args) {
         
         Scanner scanInput = new Scanner(System.in);
-        System.out.println("Enter edges and the number of times each edge appears (e.g. AB 1, BA 1): ");
+        System.out.println("Enter edges and the number of times each edge appears (e.g. AB 1,BA 1): ");
         String[] input = scanInput.nextLine().split(",");
         input = removeSameValues(input);
         System.out.println(Arrays.toString(input));
